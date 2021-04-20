@@ -1,0 +1,2 @@
+azure-mgmt-cpute
+azure-cli-core
