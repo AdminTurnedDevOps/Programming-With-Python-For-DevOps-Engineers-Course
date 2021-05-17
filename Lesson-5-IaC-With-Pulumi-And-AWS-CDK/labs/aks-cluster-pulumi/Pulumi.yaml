@@ -1,0 +1,3 @@
+name: aks-python
+runtime: python
+description: Create an AKS cluster with Pulumi and Python
