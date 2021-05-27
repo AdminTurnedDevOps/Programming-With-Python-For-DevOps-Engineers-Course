@@ -7,3 +7,9 @@ application = Flask(__name__)
 @application.route("/")
 def home():
     return "Hello CloudSkills!"
+
+@application.route("/hello")
+def goodbye():
+    return "Goodbye"
+
+application.run(host='127.0.0.1', port='5000')
