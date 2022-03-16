@@ -15,7 +15,7 @@ class IamUserAwsCdkStack(cdk.Stack):
 
         iam_role = aws_iam.Role(
             self,
-            id='lambdacloudskillsfullaccess',
+            id='lambdamichaellevanfullaccess',
             assumed_by=aws_iam.ServicePrincipal("lambda.amazonaws.com"),
             managed_policies=[
                 aws_iam.ManagedPolicy.from_aws_managed_policy_name("AWSLambda_FullAccess")

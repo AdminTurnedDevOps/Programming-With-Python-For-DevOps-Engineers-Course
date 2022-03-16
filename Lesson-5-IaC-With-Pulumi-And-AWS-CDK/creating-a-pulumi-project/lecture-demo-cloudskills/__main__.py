@@ -4,7 +4,7 @@ import pulumi
 from pulumi_aws import s3
 
 
-bucket = 'cloudskillss3bucket'
+bucket = 'michaellevans3bucket'
 
 # Create an AWS resource (S3 Bucket)
 bucket = s3.Bucket(bucket)

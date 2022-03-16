@@ -34,7 +34,7 @@ By default, Django runs on port `8000`. If you want to change the port, you can 
 ## Creating an app
 
 1. To create your app, make sure you’re in the same directory as manage.py and type this command:
-    `python manage.py startapp cloudskillsapp`
+    `python manage.py startapp michaellevanapp`
 
 2. Add in the following code to the `views.py` file
 ```
@@ -42,12 +42,12 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the cloudskills index.")
+    return HttpResponse("Hello, world. You're at the michaellevan index.")
 ```
 
 3. Create a file called `urls.py` to map the URL to the new site.
 
-4. In the directory `cloudskillsapp`, add the following code to `urls.py`:
+4. In the directory `michaellevanapp`, add the following code to `urls.py`:
 ```
 from django.urls import path
 
@@ -64,7 +64,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('cloudskills/', include('cloudskillsapp.urls')),
+    path('michaellevan/', include('michaellevanapp.urls')),
     path('admin/', admin.site.urls),
 ]
 ```

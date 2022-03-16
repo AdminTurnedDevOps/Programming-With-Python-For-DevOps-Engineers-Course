@@ -3,7 +3,7 @@ from tkinter.font import Font
 
 app = Tk()
 
-app.title('CloudSkills To-Do')
+app.title('michaellevan To-Do')
 app.geometry("500x500")
 
 # Font

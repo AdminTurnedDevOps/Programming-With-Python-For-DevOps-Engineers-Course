@@ -5,7 +5,7 @@ from pulumi_azure_native import storage
 from pulumi_azure_native import resources
 
 # Create an Azure Resource Group
-resource_group = resources.ResourceGroup('cloudskills-rg')
+resource_group = resources.ResourceGroup('michaellevan-rg')
 
 # Create an Azure resource (Storage Account)
 account = storage.StorageAccount('sa',

@@ -13,5 +13,5 @@ class S3BucketAwsCdkStack(cdk.Stack):
     def __init__(self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
 
-        bucket = aws_s3.Bucket(self, "cloudskills-s3-bucket")
+        bucket = aws_s3.Bucket(self, "michaellevan-s3-bucket")
         print(bucket)

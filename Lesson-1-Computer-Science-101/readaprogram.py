@@ -10,8 +10,8 @@ run_command = os
 # Create a function, which is a a set of instructions to be carried out
 def run_a_command():
     # The below command can also be `os.system()`
-    # Run the command to echo 'Hello CloudSkills'
-    run_command.system("echo Hello CloudSkills")
+    # Run the command to echo 'Hello michaellevan'
+    run_command.system("echo Hello michaellevan")
 
 
 # Run the command

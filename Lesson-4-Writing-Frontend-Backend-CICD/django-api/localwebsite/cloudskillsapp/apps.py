@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class CloudskillsappConfig(AppConfig):
+class michaellevanappConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'cloudskillsapp'
+    name = 'michaellevanapp'
